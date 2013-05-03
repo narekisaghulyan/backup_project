@@ -1,0 +1,40 @@
+proc start {m} {vsim -L unisims_ver -L unimacro_ver -L xilinxcorelib_ver -L secureip work.glbl $m}
+set MODULE cc_testbench
+# cc_testbench
+start $MODULE
+# vsim -L unisims_ver -L unimacro_ver -L xilinxcorelib_ver -L secureip work.glbl cc_testbench 
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in module "cc_1(fast)".
+# //  ModelSim SE-64 10.1b_2 Jul  3 2012 Linux 2.6.32-279.5.1.el6.centos.plus.x86_64
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading work.glbl(fast)
+# Loading work.cc_testbench(fast)
+# Loading work.cc_1(fast)
+# Loading work.block_ram(fast)
+add wave $MODULE/*
+add wave $MODULE/cc_test1/*
+add wave $MODULE/cc_test2/*
+add wave $MODULE/cc_test3/*
+run 10000us
+# 
+# 
+# STARTING ALL TESTS
+# 
+# 
+# ENTERING FOR LOOP
+# tau1    -21
+# tau2    -12
+# tau3      9
+# x1_2      0
+# x2_2    -15
+# x3_2     12
+# y1_2    -27
+# y2_2    -15
+# the xs is    -12, the ys is     27

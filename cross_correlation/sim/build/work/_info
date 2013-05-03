@@ -1,0 +1,112 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/cc/cs150/sp13/class/cs150-ad/backup_project/cross_correlation/sim/build
+T_opt
+VYZnizD:F^8Wenz?0j:;GA3
+04 4 4 work glbl fast 0
+04 12 4 work cc_testbench fast 0
+=1-00123f753be1-5183b671-26473-6eea
+o-quiet -auto_acc_if_foreign -work work -L unisims_ver -L unimacro_ver -L xilinxcorelib_ver -L secureip
+n@_opt
+OL;O;10.1b_2;51
+vblock_ram
+I7N;e3WZB<aQP8@bHcz76S3
+VHQaVVL<i9[b[PZALO6zeE3
+Z1 d/home/cc/cs150/sp13/class/cs150-ad/backup_project/cross_correlation/sim/build
+w1367584069
+8../../src/block_ram.v
+F../../src/block_ram.v
+L0 1
+Z2 OL;L;10.1b_2;51
+r1
+31
+Z3 !s102 -nocovercells
+Z4 o+acc -source -nocovercells -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s100 bB_5WnGmfA2Z8M:SOJMRz3
+!s108 1367586415.841043
+!s107 ../../src/block_ram.v|
+!s90 +acc|-vopt|-source|-nocovercells|+incdir+../../src+incdir+../../src/sineCraft+incdir+../../src/matlab|../../src/block_ram.v|
+Z5 !s92 +acc -source -nocovercells +incdir+../../src+incdir+../../src/sineCraft+incdir+../../src/matlab -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!i10b 1
+!s85 0
+vcc_1
+Ico1PJXY<^ie=8OgBY5gj03
+V4dhzOXiA8;P2mJTWhjWio3
+R1
+w1367584427
+8../../src/cc_1.v
+F../../src/cc_1.v
+L0 3
+R2
+r1
+31
+R3
+R4
+R5
+!s100 >_GUJdn6If2JgAMm1A01@0
+!s108 1367586415.916548
+!s107 ../../src/cc_1.v|
+!s90 +acc|-vopt|-source|-nocovercells|+incdir+../../src+incdir+../../src/sineCraft+incdir+../../src/matlab|../../src/cc_1.v|
+!i10b 1
+!s85 0
+vcc_localizer_testbench
+I^ISJKZZWfC1mkK67:d16U2
+VK7ISCW?ecdLecbKgO<C;g1
+R1
+w1367485728
+8../../src/cc_testbench_backup.v
+F../../src/cc_testbench_backup.v
+L0 6
+R2
+r1
+31
+R3
+R4
+R5
+!i10b 1
+!s100 AM?bEJDRWKALKSI[d=XS53
+!s85 0
+!s108 1367586416.073963
+!s107 ../../src/cc_testbench_backup.v|
+!s90 +acc|-vopt|-source|-nocovercells|+incdir+../../src+incdir+../../src/sineCraft+incdir+../../src/matlab|../../src/cc_testbench_backup.v|
+vcc_testbench
+I9>m`?QXfi6GL0Kz]ETLGW1
+V:XYGRVg9>;k]>>GE`Ve^10
+R1
+w1367586412
+8../../src/cc_testbench.v
+F../../src/cc_testbench.v
+L0 5
+R2
+r1
+31
+R3
+R4
+R5
+!s100 o3=<_YMRDLmo15f<m8gaO2
+!s108 1367586415.995222
+!s107 ../../src/cc_testbench.v|
+!s90 +acc|-vopt|-source|-nocovercells|+incdir+../../src+incdir+../../src/sineCraft+incdir+../../src/matlab|../../src/cc_testbench.v|
+!i10b 1
+!s85 0
+vglbl
+Ie=ZS6Q:jeXZ[e[Y1P@?F90
+VM[9mS]S:KA1i4VeCMX35[3
+R1
+w1335236620
+8/opt/Xilinx/14.1/ISE_DS/ISE/verilog/src/glbl.v
+F/opt/Xilinx/14.1/ISE_DS/ISE/verilog/src/glbl.v
+L0 5
+R2
+r1
+31
+R4
+!s100 7J1niELK7Y2aOLFBHZ9413
+!s108 1367586415.759890
+!s107 /opt/Xilinx/14.1/ISE_DS/ISE/verilog/src/glbl.v|
+!s90 +acc|-vopt|-source|-nocovercells|/opt/Xilinx/14.1/ISE_DS/ISE/verilog/src/glbl.v|
+R3
+!i10b 1
+!s85 0
